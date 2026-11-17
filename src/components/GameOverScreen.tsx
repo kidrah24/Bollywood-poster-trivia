@@ -83,6 +83,8 @@ export function GameOverScreen({
               <img
                 src={item.poster.imagePath}
                 alt={item.poster.title}
+                loading="lazy"
+                decoding="async"
                 referrerPolicy="no-referrer"
                 className="h-14 w-11 shrink-0 rounded object-cover"
               />

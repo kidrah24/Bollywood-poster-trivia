@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useLayoutEffect, useRef, useState } from 'react';
 import { Film } from 'lucide-react';
 import { CropSpot, DifficultyMode, MoviePoster } from '../data/posters';
 
@@ -20,6 +20,15 @@ export function PosterViewport({
   wasCorrect,
 }: PosterViewportProps) {
   const [imgError, setImgError] = useState(false);
+  const [isLoaded, setIsLoaded] = useState(false);
+  const imgRef = useRef<HTMLImageElement | null>(null);
+
+  useLayoutEffect(() => {
+    const img = imgRef.current;
+    if (img && img.complete && img.naturalWidth > 0) {
+      setIsLoaded(true);
+    }
+  }, [poster.imagePath]);
 
   const initialScale =
     difficulty === 'director' ? crop.directorScale : crop.classicScale;
@@ -38,22 +47,34 @@ export function PosterViewport({
         className={`relative h-[36dvh] min-h-[220px] max-h-[320px] sm:h-[42dvh] sm:max-h-[380px] md:h-[62vh] md:max-h-[560px] w-auto overflow-hidden rounded-lg border bg-[#1B1B1B] transition-colors duration-200 ${frameBorderClass}`}
       >
         {!imgError ? (
-          <img
-            src={poster.imagePath}
-            alt={
-              isRevealed
-                ? `${poster.title} (${poster.year}) official movie poster`
-                : 'Zoomed-in Bollywood movie poster clue'
-            }
-            referrerPolicy="no-referrer"
-            draggable={false}
-            onError={() => setImgError(true)}
-            style={{
-              transformOrigin: `${crop.originX}% ${crop.originY}%`,
-              transform: `scale(${activeScale})`,
-            }}
-            className="h-full w-full select-none object-cover transition-transform duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] will-change-transform"
-          />
+          <>
+            <img
+              ref={imgRef}
+              src={poster.imagePath}
+              alt={
+                isRevealed
+                  ? `${poster.title} (${poster.year}) official movie poster`
+                  : 'Zoomed-in Bollywood movie poster clue'
+              }
+              decoding="async"
+              fetchPriority="high"
+              referrerPolicy="no-referrer"
+              draggable={false}
+              onLoad={() => setIsLoaded(true)}
+              onError={() => setImgError(true)}
+              style={{
+                transformOrigin: `${crop.originX}% ${crop.originY}%`,
+                transform: `scale(${activeScale})`,
+              }}
+              className="h-full w-full select-none object-cover transition-transform duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] will-change-transform"
+            />
+            <div
+              aria-hidden="true"
+              className={`pointer-events-none absolute inset-0 bg-gradient-to-br from-[#232326] via-[#1B1B1B] to-[#232326] transition-opacity duration-150 ${
+                isLoaded ? 'opacity-0' : 'animate-pulse opacity-100'
+              }`}
+            />
+          </>
         ) : (
           <div className="flex h-full w-full flex-col items-center justify-center gap-3 bg-gradient-to-br from-[#232326] to-[#111111] p-6 text-center">
             <Film className="h-10 w-10 text-[#F96922]/80" aria-hidden="true" />

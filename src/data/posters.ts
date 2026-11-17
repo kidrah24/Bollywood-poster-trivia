@@ -45,7 +45,7 @@ export const MOVIE_POSTERS: MoviePoster[] = [
     synopsis:
       'A 1970s junior artist is reincarnated thirty years later as a superstar and sets out to avenge the tragic murder of the actress he loved.',
     clueHint: '2007 reincarnation masala hit · Dir. Farah Khan',
-    imagePath: '/assets/aistudio/image_424076ea.png',
+    imagePath: '/assets/posters/image_424076ea.webp',
     width: 263,
     height: 380,
     distractors: [
@@ -87,7 +87,7 @@ export const MOVIE_POSTERS: MoviePoster[] = [
     synopsis:
       'Set in 1920s colonial Delhi, a fearless tribal protector and an ambitious imperial police officer forge an intense brotherhood before clashing over their conflicting loyalties.',
     clueHint: '2022 pan-Indian action epic · Fire & Water motif',
-    imagePath: '/assets/aistudio/image_c0e595ad.png',
+    imagePath: '/assets/posters/image_c0e595ad.webp',
     width: 250,
     height: 377,
     distractors: [
@@ -129,7 +129,7 @@ export const MOVIE_POSTERS: MoviePoster[] = [
     synopsis:
       'Raised in a quiet village beneath a towering waterfall, an adventurous young man discovers his royal Mahishmati heritage and a decades-old conspiracy.',
     clueHint: '2015 epic fantasy · Dir. S. S. Rajamouli',
-    imagePath: '/assets/aistudio/image_4179f164.png',
+    imagePath: '/assets/posters/image_4179f164.webp',
     width: 500,
     height: 741,
     distractors: [
@@ -171,7 +171,7 @@ export const MOVIE_POSTERS: MoviePoster[] = [
     synopsis:
       'A grand two-part cinematic retelling of the ancient Indian epic following Prince Rama, Sita, and Lakshmana through exile and the battle for dharma.',
     clueHint: 'Upcoming Diwali 2026 mythological epic · Dir. Nitesh Tiwari',
-    imagePath: '/assets/aistudio/image_ab4ea89c.png',
+    imagePath: '/assets/posters/image_ab4ea89c.webp',
     width: 250,
     height: 312,
     distractors: [
@@ -213,9 +213,9 @@ export const MOVIE_POSTERS: MoviePoster[] = [
     synopsis:
       'A middle-aged former wrestling champion battles personal grief and physical doubt as he trains relentlessly for a shot at redemption in the MMA ring.',
     clueHint: '2016 Eid wrestling drama · Produced by Yash Raj Films',
-    imagePath: '/assets/aistudio/image_8e1b61a4.png',
-    width: 1313,
-    height: 1800,
+    imagePath: '/assets/posters/image_8e1b61a4.webp',
+    width: 900,
+    height: 1234,
     distractors: [
       'Dangal',
       'Tiger Zinda Hai',
@@ -255,9 +255,9 @@ export const MOVIE_POSTERS: MoviePoster[] = [
     synopsis:
       'Years after graduating from a hyper-competitive engineering college, two friends embark on a road trip across India to track down their brilliant, free-spirited classmate.',
     clueHint: '2009 engineering campus comedy · Dir. Rajkumar Hirani',
-    imagePath: '/assets/aistudio/image_8de31dfb.png',
-    width: 3030,
-    height: 4364,
+    imagePath: '/assets/posters/image_8de31dfb.webp',
+    width: 900,
+    height: 1296,
     distractors: [
       'Chhichhore',
       'Munna Bhai M.B.B.S.',
@@ -297,9 +297,9 @@ export const MOVIE_POSTERS: MoviePoster[] = [
     synopsis:
       'Defying conservative village norms in Haryana, former amateur wrestler Mahavir Singh Phogat trains his young daughters Geeta and Babita to become world-class champions.',
     clueHint: '2016 Haryana wrestling biopic · Dir. Nitesh Tiwari',
-    imagePath: '/assets/aistudio/image_46e3fc06.png',
-    width: 1462,
-    height: 2048,
+    imagePath: '/assets/posters/image_46e3fc06.webp',
+    width: 900,
+    height: 1261,
     distractors: [
       'Sultan',
       'Bhaag Milkha Bhaag',
@@ -339,9 +339,9 @@ export const MOVIE_POSTERS: MoviePoster[] = [
     synopsis:
       'When a video game designer creates an unbeatable digital villain that escapes into the real world, his family must rely on the game’s heroic avatar G.One for survival.',
     clueHint: '2011 Diwali sci-fi superhero film · Dir. Anubhav Sinha',
-    imagePath: '/assets/aistudio/image_ef42f6b8.png',
-    width: 1000,
-    height: 1500,
+    imagePath: '/assets/posters/image_ef42f6b8.webp',
+    width: 867,
+    height: 1300,
     distractors: ['Krrish 3', 'Robot', 'Don 2', 'Fan', 'Brahmastra'],
     crops: [
       {
@@ -375,7 +375,7 @@ export const MOVIE_POSTERS: MoviePoster[] = [
     synopsis:
       'A piano player pretending to be blind becomes tangled in a web of deceit and blackmail after unknowingly witnessing the murder of a retired film star.',
     clueHint: '2018 neo-noir piano thriller · Dir. Sriram Raghavan',
-    imagePath: '/assets/aistudio/image_50d02843.png',
+    imagePath: '/assets/posters/image_50d02843.webp',
     width: 740,
     height: 1000,
     distractors: [
@@ -417,7 +417,7 @@ export const MOVIE_POSTERS: MoviePoster[] = [
     synopsis:
       'In 1893 colonial India, drought-stricken villagers wager their crippling land tax on a high-stakes cricket match against arrogant British officers.',
     clueHint: '2001 Oscar-nominated cricket drama · Dir. Ashutosh Gowariker',
-    imagePath: '/assets/aistudio/image_52935a5c.png',
+    imagePath: '/assets/posters/image_52935a5c.webp',
     width: 399,
     height: 501,
     distractors: [
@@ -459,7 +459,7 @@ export const MOVIE_POSTERS: MoviePoster[] = [
     synopsis:
       'A heartbroken businessman boards a random train and meets a vivacious, talkative stranger whose impulsive detour transforms both of their lives.',
     clueHint: '2007 highway rom-com · Dir. Imtiaz Ali',
-    imagePath: '/assets/aistudio/image_e7e52e1c.png',
+    imagePath: '/assets/posters/image_e7e52e1c.webp',
     width: 524,
     height: 933,
     distractors: [
@@ -501,9 +501,9 @@ export const MOVIE_POSTERS: MoviePoster[] = [
     synopsis:
       'Driven by a dying mother’s wish for power and wealth, an ambitious orphan rises through Bombay’s underworld to infiltrate the brutal Kolar Gold Fields.',
     clueHint: '2018 Kannada period action blockbuster · Dir. Prashanth Neel',
-    imagePath: '/assets/aistudio/image_a25b7df2.png',
-    width: 1000,
-    height: 1500,
+    imagePath: '/assets/posters/image_a25b7df2.webp',
+    width: 867,
+    height: 1300,
     distractors: [
       'Pushpa: The Rise',
       'Salaar',
@@ -543,9 +543,9 @@ export const MOVIE_POSTERS: MoviePoster[] = [
     synopsis:
       'After militants ambush an Indian Army camp in Uri, Major Vihaan Shergill leads an elite special forces unit across enemy lines on a covert retaliatory mission.',
     clueHint: '2019 military special-ops thriller · "How’s the josh?"',
-    imagePath: '/assets/aistudio/image_9a37b2b5.png',
-    width: 1000,
-    height: 1444,
+    imagePath: '/assets/posters/image_9a37b2b5.webp',
+    width: 900,
+    height: 1300,
     distractors: [
       'Shershaah',
       'Article 370',
@@ -585,9 +585,9 @@ export const MOVIE_POSTERS: MoviePoster[] = [
     synopsis:
       'Tasked with a confidential mission ahead of a landmark constitutional move in Kashmir, a sharp intelligence agent races to neutralize terror networks in the valley.',
     clueHint: '2024 Kashmir intelligence thriller · Produced by Aditya Dhar',
-    imagePath: '/assets/aistudio/image_f8f12f74.png',
-    width: 1080,
-    height: 1440,
+    imagePath: '/assets/posters/image_f8f12f74.webp',
+    width: 900,
+    height: 1200,
     distractors: [
       'Uri: The Surgical Strike',
       'The Kashmir Files',
@@ -627,7 +627,7 @@ export const MOVIE_POSTERS: MoviePoster[] = [
     synopsis:
       'A college student’s quest to uncover the mystery behind his parents’ deaths leads him into harrowing accounts of the 1990 exodus of Kashmiri Pandits.',
     clueHint: '2022 ensemble historical drama · Dir. Vivek Agnihotri',
-    imagePath: '/assets/aistudio/image_15475a97.png',
+    imagePath: '/assets/posters/image_15475a97.webp',
     width: 250,
     height: 371,
     distractors: [
@@ -669,9 +669,9 @@ export const MOVIE_POSTERS: MoviePoster[] = [
     synopsis:
       'Inspired by the life of Indian hockey drag-flicker Sandeep Singh, who overcame a paralyzing accidental gunshot to lead his country back onto the international pitch.',
     clueHint: '2018 Indian hockey comeback biopic · Dir. Shaad Ali',
-    imagePath: '/assets/aistudio/image_cbe8c63d.png',
-    width: 1124,
-    height: 1500,
+    imagePath: '/assets/posters/image_cbe8c63d.webp',
+    width: 900,
+    height: 1201,
     distractors: [
       'Chak De! India',
       'Bhaag Milkha Bhaag',
@@ -711,9 +711,9 @@ export const MOVIE_POSTERS: MoviePoster[] = [
     synopsis:
       'Chronicles the life and valor of Param Vir Chakra awardee Captain Vikram Batra, whose fearless leadership on icy Himalayan peaks turned the tide of the 1999 Kargil War.',
     clueHint: '2021 Kargil War biopic · "Yeh Dil Maange More"',
-    imagePath: '/assets/aistudio/image_e3d94d5f.png',
-    width: 960,
-    height: 1280,
+    imagePath: '/assets/posters/image_e3d94d5f.webp',
+    width: 900,
+    height: 1200,
     distractors: [
       'Uri: The Surgical Strike',
       'LOC: Kargil',
@@ -753,9 +753,9 @@ export const MOVIE_POSTERS: MoviePoster[] = [
     synopsis:
       'An exiled RAW operative returns from the shadows to team up with a former ISI agent and stop a rogue mercenary syndicate threatening India with a deadly bioweapon.',
     clueHint: '2023 YRF Spy Universe blockbuster · Dir. Siddharth Anand',
-    imagePath: '/assets/aistudio/image_9098d84a.png',
-    width: 1000,
-    height: 1333,
+    imagePath: '/assets/posters/image_9098d84a.webp',
+    width: 900,
+    height: 1200,
     distractors: ['War', 'Tiger 3', 'Jawan', 'Don 2', 'Ra.One'],
     crops: [
       {
@@ -789,7 +789,7 @@ export const MOVIE_POSTERS: MoviePoster[] = [
     synopsis:
       'An Indian Air Force rescue pilot and a Pakistani woman fall deeply in love, only for a cruel betrayal to trap him in prison for twenty-two years until a young lawyer fights for truth.',
     clueHint: '2004 cross-border romance · Dir. Yash Chopra',
-    imagePath: '/assets/aistudio/image_2a8baaa7.png',
+    imagePath: '/assets/posters/image_2a8baaa7.webp',
     width: 876,
     height: 1200,
     distractors: [
@@ -831,7 +831,7 @@ export const MOVIE_POSTERS: MoviePoster[] = [
     synopsis:
       'After falling in love during a European train journey, carefree Raj follows Simran back to Punjab determined to win over her strict, traditional father.',
     clueHint: '1995 Maratha Mandir classic · Dir. Aditya Chopra',
-    imagePath: '/assets/aistudio/image_f4ef2029.png',
+    imagePath: '/assets/posters/image_f4ef2029.webp',
     width: 265,
     height: 363,
     distractors: [
@@ -873,9 +873,9 @@ export const MOVIE_POSTERS: MoviePoster[] = [
     synopsis:
       'Rejected by his proud, disciplinarian father for failing his studies, a devoted son starts from scratch as a bus driver to earn respect and build a hospital in his mother’s name.',
     clueHint: '1999 dual-role family classic · Father & Son face-off',
-    imagePath: '/assets/aistudio/image_efe7b640.png',
-    width: 1536,
-    height: 2048,
+    imagePath: '/assets/posters/image_efe7b640.webp',
+    width: 900,
+    height: 1200,
     distractors: [
       'Baghban',
       'Kabhi Khushi Kabhie Gham',
@@ -915,9 +915,9 @@ export const MOVIE_POSTERS: MoviePoster[] = [
     synopsis:
       'A charismatic young rebel becomes a protector of the oppressed while hunting down a ruthless crime lord, unaware of a dark childhood connection between them.',
     clueHint: '2004 action hit (Hindi dub of Mass) · Starring Nagarjuna',
-    imagePath: '/assets/aistudio/image_4450968b.png',
-    width: 1920,
-    height: 2560,
+    imagePath: '/assets/posters/image_4450968b.webp',
+    width: 900,
+    height: 1200,
     distractors: [
       'Don No. 1',
       'Khuda Gawah',
@@ -957,9 +957,9 @@ export const MOVIE_POSTERS: MoviePoster[] = [
     synopsis:
       'An Afghan chieftain rides to India to avenge his beloved’s father’s death, only to be wrongly imprisoned for decades while his daughter grows up believing him gone.',
     clueHint: '1992 Indo-Afghan epic · Music by Laxmikant–Pyarelal',
-    imagePath: '/assets/aistudio/image_90c28c02.png',
-    width: 1178,
-    height: 1500,
+    imagePath: '/assets/posters/image_90c28c02.webp',
+    width: 900,
+    height: 1146,
     distractors: ['Hum', 'Agneepath', 'Coolie', 'Shahenshah', 'Karan Arjun'],
     crops: [
       {
@@ -993,7 +993,7 @@ export const MOVIE_POSTERS: MoviePoster[] = [
     synopsis:
       'Separated from his mother in a childhood flood, railway porter Iqbal grows up alongside his loyal falcon to unite fellow workers and bring down a corrupt tycoon.',
     clueHint: '1983 Manmohan Desai blockbuster · Red porter uniform & falcon',
-    imagePath: '/assets/aistudio/image_77637814.png',
+    imagePath: '/assets/posters/image_77637814.webp',
     width: 328,
     height: 480,
     distractors: [
@@ -1035,7 +1035,7 @@ export const MOVIE_POSTERS: MoviePoster[] = [
     synopsis:
       'When a British filmmaker casts carefree Delhi university friends in a documentary on Indian freedom fighters, a personal tragedy awakens their rebellious conscience.',
     clueHint: '2006 cult youth drama · Music by A. R. Rahman',
-    imagePath: '/assets/aistudio/image_c814dea5.png',
+    imagePath: '/assets/posters/image_c814dea5.webp',
     width: 795,
     height: 1100,
     distractors: [
@@ -1077,7 +1077,7 @@ export const MOVIE_POSTERS: MoviePoster[] = [
     synopsis:
       'Convinced that great music is born from heartbreak, college student Janardhan pursues reckless passion only to rise as a tormented rock icon named Jordan.',
     clueHint: '2011 musical drama · Dir. Imtiaz Ali & Music by A. R. Rahman',
-    imagePath: '/assets/aistudio/image_07a3bd7f.png',
+    imagePath: '/assets/posters/image_07a3bd7f.webp',
     width: 708,
     height: 1000,
     distractors: [
@@ -1119,7 +1119,7 @@ export const MOVIE_POSTERS: MoviePoster[] = [
     synopsis:
       'Set in 1970s Darjeeling, a cheerful, mischievous mute young man forms an unforgettable bond between a fiercely independent woman and an autistic heiress.',
     clueHint: '2012 Darjeeling comedy-drama · Dir. Anurag Basu',
-    imagePath: '/assets/aistudio/image_37341cb0.png',
+    imagePath: '/assets/posters/image_37341cb0.webp',
     width: 709,
     height: 1024,
     distractors: [
@@ -1161,7 +1161,7 @@ export const MOVIE_POSTERS: MoviePoster[] = [
     synopsis:
       'Murdered by their ruthless uncle, two devoted brothers are reborn seventeen years later in separate families—drawn back together by their mother’s unwavering faith.',
     clueHint: '1995 reincarnation classic · "Mere Karan Arjun aayenge"',
-    imagePath: '/assets/aistudio/image_4c475bf7.png',
+    imagePath: '/assets/posters/image_4c475bf7.webp',
     width: 736,
     height: 1070,
     distractors: [
@@ -1203,7 +1203,7 @@ export const MOVIE_POSTERS: MoviePoster[] = [
     synopsis:
       'A fading rock singer battling alcoholism discovers an extraordinarily gifted bar singer and helps make her a star—even as his own demons threaten their love.',
     clueHint: '2013 rain-soaked musical romance · Dir. Mohit Suri',
-    imagePath: '/assets/aistudio/image_ea51413e.png',
+    imagePath: '/assets/posters/image_ea51413e.webp',
     width: 720,
     height: 1281,
     distractors: [
@@ -1245,7 +1245,7 @@ export const MOVIE_POSTERS: MoviePoster[] = [
     synopsis:
       'Madhav, a small-town basketball player from Bihar, falls for affluent Riya at a Delhi college, who agrees to stay only as his "half girlfriend."',
     clueHint: '2017 Chetan Bhagat adaptation · Dir. Mohit Suri',
-    imagePath: '/assets/aistudio/image_2f9c5129.png',
+    imagePath: '/assets/posters/image_2f9c5129.webp',
     width: 250,
     height: 361,
     distractors: [
@@ -1287,7 +1287,7 @@ export const MOVIE_POSTERS: MoviePoster[] = [
     synopsis:
       'Prem, the lovable president of the Happy Club, cheerfully helps his crush Jenny elope with the boy she loves—only to realize his own feelings along the way.',
     clueHint: '2009 slapstick rom-com · "Tu Jaane Na"',
-    imagePath: '/assets/aistudio/image_ee398802.png',
+    imagePath: '/assets/posters/image_ee398802.webp',
     width: 265,
     height: 374,
     distractors: [
@@ -1329,9 +1329,9 @@ export const MOVIE_POSTERS: MoviePoster[] = [
     synopsis:
       'In the small town of Chanderi, men vanish during a four-day festival unless they paint "O Stree Kal Aana" on their walls—until a local tailor meets a mysterious woman.',
     clueHint: '2018 Maddock horror-comedy · "O Stree Kal Aana"',
-    imagePath: '/assets/aistudio/image_a051d8da.png',
-    width: 1417,
-    height: 2048,
+    imagePath: '/assets/posters/image_a051d8da.webp',
+    width: 899,
+    height: 1300,
     distractors: ['Munjya', 'Bhediya', 'Roohi', 'Bhool Bhulaiyaa 2', 'Go Goa Gone'],
     crops: [
       {
@@ -1365,7 +1365,7 @@ export const MOVIE_POSTERS: MoviePoster[] = [
     synopsis:
       'Driven by insatiable greed across generations, a man repeatedly descends into a cursed ancestral womb-temple in Maharashtra to steal gold coins from a fallen deity.',
     clueHint: '2018 atmospheric folk-horror · Hastar & endless monsoon',
-    imagePath: '/assets/aistudio/image_e373df64.png',
+    imagePath: '/assets/posters/image_e373df64.webp',
     width: 374,
     height: 534,
     distractors: ['Kantara', 'Pari', 'Bulbbul', 'Bhoot', 'Munjya'],
@@ -1401,9 +1401,9 @@ export const MOVIE_POSTERS: MoviePoster[] = [
     synopsis:
       'Visiting his ancestral Konkan village, a shy young man accidentally awakens a mischievous, obsessive spirit bound to a peepal tree who demands help winning his bride.',
     clueHint: '2024 Maddock Supernatural Universe hit · Konkan folklore',
-    imagePath: '/assets/aistudio/image_5326a637.png',
-    width: 1200,
-    height: 1600,
+    imagePath: '/assets/posters/image_5326a637.webp',
+    width: 900,
+    height: 1200,
     distractors: ['Stree', 'Bhediya', 'Bhool Bhulaiyaa 3', 'Tumbbad', 'Roohi'],
     crops: [
       {
@@ -1437,9 +1437,9 @@ export const MOVIE_POSTERS: MoviePoster[] = [
     synopsis:
       'A kind-hearted, developmentally challenged young man befriends a stranded alien named Jadoo, who gifts him extraordinary strength and intellect—changing his life forever.',
     clueHint: '2003 sci-fi classic · Jadoo & "Om" space signal',
-    imagePath: '/assets/aistudio/image_89f01032.png',
-    width: 1036,
-    height: 1500,
+    imagePath: '/assets/posters/image_89f01032.webp',
+    width: 898,
+    height: 1300,
     distractors: ['Krrish', 'PK', 'Ra.One', 'Kaho Naa... Pyaar Hai', 'Lakshya'],
     crops: [
       {
@@ -1473,7 +1473,7 @@ export const MOVIE_POSTERS: MoviePoster[] = [
     synopsis:
       'Born with superhuman abilities inherited from his father, a naive village boy travels to Singapore for love and adopts a masked identity to stop a megalomaniac scientist.',
     clueHint: '2006 Indian superhero sequel · Masked hero in Singapore',
-    imagePath: '/assets/aistudio/image_dcbae74d.png',
+    imagePath: '/assets/posters/image_dcbae74d.webp',
     width: 300,
     height: 435,
     distractors: ['Koi... Mil Gaya', 'Ra.One', 'Dhoom: 2', 'Krrish 3', 'Bang Bang!'],
@@ -1509,7 +1509,7 @@ export const MOVIE_POSTERS: MoviePoster[] = [
     synopsis:
       'When a superstar arrives to shoot a film in a quiet village, word spreads that the humble local barber was once his childhood best friend—turning his simple life upside down.',
     clueHint: '2009 village comedy-drama · Dir. Priyadarshan',
-    imagePath: '/assets/aistudio/image_220dcbff.png',
+    imagePath: '/assets/posters/image_220dcbff.webp',
     width: 500,
     height: 732,
     distractors: [
@@ -1551,7 +1551,7 @@ export const MOVIE_POSTERS: MoviePoster[] = [
     synopsis:
       'Along the ghats of Varanasi, two intersecting stories follow a young woman haunted by scandal and a crematorium worker’s son dreaming of a life beyond caste.',
     clueHint: '2015 Cannes award-winner · Set on the ghats of Varanasi',
-    imagePath: '/assets/aistudio/image_b573c92c.png',
+    imagePath: '/assets/posters/image_b573c92c.webp',
     width: 250,
     height: 361,
     distractors: [
@@ -1593,7 +1593,7 @@ export const MOVIE_POSTERS: MoviePoster[] = [
     synopsis:
       'A lively 102-year-old father who refuses to grow old plots playful challenges to shake his grumpy 75-year-old son out of his joyless routine.',
     clueHint: '2018 father-son comedy · Dir. Umesh Shukla',
-    imagePath: '/assets/aistudio/image_a82bc8ee.png',
+    imagePath: '/assets/posters/image_a82bc8ee.webp',
     width: 461,
     height: 666,
     distractors: ['Piku', 'Baghban', 'Kapoor & Sons', 'OMG: Oh My God!', 'Gulabo Sitabo'],
@@ -1629,9 +1629,9 @@ export const MOVIE_POSTERS: MoviePoster[] = [
     synopsis:
       'Having conquered the Asian underworld, crime mastermind Don turns himself in to set up an audacious prison break and pull off a high-tech heist in Berlin.',
     clueHint: '2011 Berlin heist sequel · Dir. Farhan Akhtar',
-    imagePath: '/assets/aistudio/image_22604588.png',
-    width: 1768,
-    height: 2560,
+    imagePath: '/assets/posters/image_22604588.webp',
+    width: 898,
+    height: 1300,
     distractors: ['Don', 'Pathaan', 'Raees', 'Race 2', 'Dhoom: 2'],
     crops: [
       {
@@ -1665,7 +1665,7 @@ export const MOVIE_POSTERS: MoviePoster[] = [
     synopsis:
       'Three brothers separated in childhood are raised in Hindu, Muslim, and Christian households—crossing paths years later as a cop, a qawwal, and a spirited bar owner.',
     clueHint: '1977 Manmohan Desai classic · Three separated brothers',
-    imagePath: '/assets/aistudio/image_7a5dd6b6.png',
+    imagePath: '/assets/posters/image_7a5dd6b6.webp',
     width: 471,
     height: 651,
     distractors: ['Coolie', 'Sholay', 'Naseeb', 'Deewaar', 'Don'],
@@ -1701,9 +1701,9 @@ export const MOVIE_POSTERS: MoviePoster[] = [
     synopsis:
       'When a devoted husband strays for a glamorous model, his witty wife teams up with a colorful friend to win back her family and teach him a hilarious lesson.',
     clueHint: '1999 David Dhawan comedy · "Chunari Chunari"',
-    imagePath: '/assets/aistudio/image_e800099b.png',
-    width: 1204,
-    height: 1500,
+    imagePath: '/assets/posters/image_e800099b.webp',
+    width: 900,
+    height: 1121,
     distractors: [
       'Judwaa',
       'No Entry',
@@ -1743,7 +1743,7 @@ export const MOVIE_POSTERS: MoviePoster[] = [
     synopsis:
       'A master of disguise known as Mr. A pulls off impossible museum heists across the globe, drawing ACP Jai Dixit and Ali into a high-speed cat-and-mouse chase.',
     clueHint: '2006 YRF heist sequel · "Dhoom Machale"',
-    imagePath: '/assets/aistudio/image_a4477846.png',
+    imagePath: '/assets/posters/image_a4477846.webp',
     width: 270,
     height: 371,
     distractors: ['Dhoom', 'Dhoom: 3', 'Race', 'Don 2', 'Krrish'],
@@ -1779,7 +1779,7 @@ export const MOVIE_POSTERS: MoviePoster[] = [
     synopsis:
       'Power struggles, double-crosses, and high-octane chases erupt inside a wealthy arms-dealing empire as family loyalties shatter from Dubai to Abu Dhabi.',
     clueHint: '2018 Eid action thriller · Dir. Remo D’Souza',
-    imagePath: '/assets/aistudio/image_9830b0dd.png',
+    imagePath: '/assets/posters/image_9830b0dd.webp',
     width: 550,
     height: 788,
     distractors: ['Race 2', 'Race', 'Kick', 'Tiger Zinda Hai', 'Pathaan'],
@@ -1815,7 +1815,7 @@ export const MOVIE_POSTERS: MoviePoster[] = [
     synopsis:
       'During the turmoil of 1947 Partition, a Sikh truck driver marries and protects a Muslim woman—later crossing into Pakistan to bring his wife home against impossible odds.',
     clueHint: '2001 Partition blockbuster · Tara Singh & Sakina',
-    imagePath: '/assets/aistudio/image_0a15aa56.png',
+    imagePath: '/assets/posters/image_0a15aa56.webp',
     width: 660,
     height: 966,
     distractors: ['Gadar 2', 'Border', 'Veer-Zaara', 'Pinjar', 'Apne'],
@@ -1851,9 +1851,9 @@ export const MOVIE_POSTERS: MoviePoster[] = [
     synopsis:
       'Set during the 1971 Indo-Pakistan conflict, Tara Singh returns across the border once more to rescue his captured son Jeete from a ruthless army general.',
     clueHint: '2023 blockbuster sequel · Cartwheel overhead stance',
-    imagePath: '/assets/aistudio/image_32216c0a.png',
-    width: 1080,
-    height: 1350,
+    imagePath: '/assets/posters/image_32216c0a.webp',
+    width: 900,
+    height: 1125,
     distractors: [
       'Gadar: Ek Prem Katha',
       'Border',

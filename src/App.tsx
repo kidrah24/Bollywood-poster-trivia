@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import { useCallback, useState } from 'react';
+import { useCallback, useEffect, useState } from 'react';
 import { GameOverScreen, RoundResult } from './components/GameOverScreen';
 import { PauseModal } from './components/PauseModal';
 import { PlayingScreen } from './components/PlayingScreen';
@@ -16,6 +16,25 @@ import {
 import { soundEngine } from './utils/sound';
 
 type GameState = 'TITLE_MENU' | 'PLAYING' | 'PAUSED' | 'GAME_OVER';
+
+const preloadedPosterUrls = new Set<string>();
+
+function preloadPosterImages(questions: TriviaQuestion[]): void {
+  if (typeof window === 'undefined') return;
+  for (const q of questions) {
+    const src = q.poster.imagePath;
+    if (preloadedPosterUrls.has(src)) continue;
+    preloadedPosterUrls.add(src);
+    const img = new window.Image();
+    img.decoding = 'async';
+    img.src = src;
+    if (typeof img.decode === 'function') {
+      img.decode().catch(() => {
+        // Ignore decode errors; element onError handles fallback UI
+      });
+    }
+  }
+}
 
 const BEST_SCORE_STORAGE_KEY = 'parda_bollywood_best_score_v1';
 
@@ -54,12 +73,19 @@ export default function App() {
   const [results, setResults] = useState<RoundResult[]>([]);
   const [isMuted, setIsMuted] = useState<boolean>(false);
 
+  useEffect(() => {
+    if (gameState !== 'PLAYING') return;
+    preloadPosterImages(deck.slice(roundIndex, roundIndex + 4));
+  }, [gameState, deck, roundIndex]);
+
   const startNewGame = useCallback(
     (overrideDifficulty?: DifficultyMode, overrideCount?: number) => {
       const activeDifficulty = overrideDifficulty ?? difficulty;
       const activeCount = overrideCount ?? roundCount;
+      const nextDeck = buildTriviaDeck(activeCount);
+      preloadPosterImages(nextDeck.slice(0, 4));
       soundEngine.playTap();
-      setDeck(buildTriviaDeck(activeCount));
+      setDeck(nextDeck);
       setRoundIndex(0);
       setScore(0);
       setStreak(0);
