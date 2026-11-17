@@ -156,7 +156,8 @@ export function TitleScreen({
               {[
                 { count: 5, label: '5' },
                 { count: 10, label: '10' },
-                { count: 24, label: 'All 24' },
+                { count: 20, label: '20' },
+                { count: 46, label: 'All 46' },
               ].map(({ count, label }) => (
                 <button
                   key={count}
