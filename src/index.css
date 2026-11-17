@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Onest", system-ui, -apple-system, sans-serif;
+  --font-sans: "Onest", system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+}
+
+@layer base {
+  html,
+  body,
+  #root {
+    min-height: 100%;
+    background-color: #111111;
+    color: #f0f0f0;
+    font-family: var(--font-sans);
+  }
+}
+
+@keyframes shake-wrong {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  20% {
+    transform: translateX(-6px);
+  }
+  40% {
+    transform: translateX(5px);
+  }
+  60% {
+    transform: translateX(-4px);
+  }
+  80% {
+    transform: translateX(3px);
+  }
+}
+
+@keyframes pop-correct {
+  0% {
+    transform: scale(0.97);
+  }
+  50% {
+    transform: scale(1.02);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.animate-shake-wrong {
+  animation: shake-wrong 320ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.animate-pop-correct {
+  animation: pop-correct 280ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-shake-wrong,
+  .animate-pop-correct {
+    animation: none;
+  }
+}

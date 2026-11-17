@@ -1,0 +1,6 @@
+{
+  "name": "Parda — Bollywood Poster Trivia",
+  "description": "Guess iconic Bollywood films from zoomed-in, cropped portions of illustrated movie posters.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
